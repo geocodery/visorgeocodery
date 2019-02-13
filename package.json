@@ -1,0 +1,17 @@
+{
+  "name": "visor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Daniel Aguado H.",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jade": "^1.11.0",
+    "leaflet": "^1.4.0",
+    "pug": "^2.0.3"
+  }
+}

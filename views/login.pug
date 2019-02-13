@@ -1,0 +1,15 @@
+extends index.pug
+block content
+	div.login
+		h2 Iniciar sesión
+		form
+			.form-group
+				label(for='exampleInputEmail1') Email
+				input#exampleInputEmail1.form-control(type='email' aria-describedby='emailHelp' placeholder='Enter email')
+			.form-group
+				label(for='exampleInputPassword1') Password
+				input#exampleInputPassword1.form-control(type='password' placeholder='Password')
+			.form-check
+				input#exampleCheck1.form-check-input(type='checkbox')
+				label.form-check-label(for='exampleCheck1') Recuedame
+			button.btn.btn-primary(type='submit') Aceptar
